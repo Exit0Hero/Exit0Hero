@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" role="img" aria-label="What I Build: AI/ML, Data Analytics, Automation, Intelligent Systems, Software Engineering">
+  <defs>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#A371F7" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="200" fill="#0B0F14"/>
+
+  <!-- Card 1: AI / ML -->
+  <g>
+    <rect x="15" y="20" width="145" height="160" rx="6" fill="#161B22" stroke="#58A6FF" stroke-width="0.5" opacity="0.7"/>
+    <rect x="15" y="20" width="145" height="2" rx="1" fill="#58A6FF" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="87" cy="65" r="18" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="16;20;16" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="87" cy="65" r="7" fill="#58A6FF" opacity="0.6"/>
+    <text x="87" y="69" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">AI</text>
+    <text x="87" y="105" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" font-weight="bold">AI / ML</text>
+    <text x="87" y="122" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Models that learn</text>
+    <text x="87" y="134" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">&amp; make decisions</text>
+    <line x1="35" y1="150" x2="140" y2="150" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+    <text x="87" y="168" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="1">LEARNING</text>
+  </g>
+
+  <!-- Card 2: Data Analytics -->
+  <g>
+    <rect x="175" y="20" width="145" height="160" rx="6" fill="#161B22" stroke="#A371F7" stroke-width="0.5" opacity="0.7"/>
+    <rect x="175" y="20" width="145" height="2" rx="1" fill="#A371F7" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="247" cy="65" r="18" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="16;20;16" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="247" cy="65" r="7" fill="#A371F7" opacity="0.6"/>
+    <text x="247" y="69" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">DA</text>
+    <text x="247" y="105" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" font-weight="bold">Data Analytics</text>
+    <text x="247" y="122" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Insights from</text>
+    <text x="247" y="134" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">complex datasets</text>
+    <line x1="195" y1="150" x2="300" y2="150" stroke="#A371F7" stroke-width="0.5" opacity="0.2"/>
+    <text x="247" y="168" text-anchor="middle" fill="#A371F7" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="1">ANALYTICS</text>
+  </g>
+
+  <!-- Card 3: Automation -->
+  <g>
+    <rect x="335" y="20" width="145" height="160" rx="6" fill="#161B22" stroke="#58A6FF" stroke-width="0.5" opacity="0.7"/>
+    <rect x="335" y="20" width="145" height="2" rx="1" fill="#58A6FF" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="407" cy="65" r="18" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="16;20;16" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="407" cy="65" r="7" fill="#58A6FF" opacity="0.6"/>
+    <text x="407" y="69" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">AU</text>
+    <text x="407" y="105" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" font-weight="bold">Automation</text>
+    <text x="407" y="122" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Systems that run</text>
+    <text x="407" y="134" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">without manual work</text>
+    <line x1="355" y1="150" x2="460" y2="150" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+    <text x="407" y="168" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="1">AUTOMATION</text>
+  </g>
+
+  <!-- Card 4: Intelligent Systems -->
+  <g>
+    <rect x="495" y="20" width="145" height="160" rx="6" fill="#161B22" stroke="#A371F7" stroke-width="0.5" opacity="0.7"/>
+    <rect x="495" y="20" width="145" height="2" rx="1" fill="#A371F7" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.9s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="567" cy="65" r="18" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="16;20;16" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="567" cy="65" r="7" fill="#A371F7" opacity="0.6"/>
+    <text x="567" y="69" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">IS</text>
+    <text x="567" y="105" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">Intelligent</text>
+    <text x="567" y="118" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">Systems</text>
+    <text x="567" y="134" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Adaptive &amp;</text>
+    <text x="567" y="146" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">context-aware</text>
+    <line x1="515" y1="155" x2="620" y2="155" stroke="#A371F7" stroke-width="0.5" opacity="0.2"/>
+    <text x="567" y="168" text-anchor="middle" fill="#A371F7" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="1">INTELLIGENCE</text>
+  </g>
+
+  <!-- Card 5: Software Engineering -->
+  <g>
+    <rect x="655" y="20" width="130" height="160" rx="6" fill="#161B22" stroke="#3FB950" stroke-width="0.5" opacity="0.7"/>
+    <rect x="655" y="20" width="130" height="2" rx="1" fill="#3FB950" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="720" cy="65" r="18" fill="none" stroke="#3FB950" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="16;20;16" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="65" r="7" fill="#3FB950" opacity="0.6"/>
+    <text x="720" y="69" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">SE</text>
+    <text x="720" y="105" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">Software</text>
+    <text x="720" y="118" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">Engineering</text>
+    <text x="720" y="134" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Clean, scalable</text>
+    <text x="720" y="146" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">code that ships</text>
+    <line x1="670" y1="155" x2="770" y2="155" stroke="#3FB950" stroke-width="0.5" opacity="0.2"/>
+    <text x="720" y="168" text-anchor="middle" fill="#3FB950" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="1">ENGINEERING</text>
+  </g>
+</svg>

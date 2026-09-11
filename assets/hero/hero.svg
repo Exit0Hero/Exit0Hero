@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-label="Karan Sasane - AI/ML Engineer Hero Banner">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#A371F7"/>
+    </linearGradient>
+    <linearGradient id="node-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A371F7" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="400" fill="url(#bg-grad)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04" stroke="#58A6FF" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/><line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/><line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/><line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="350" x2="900" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/><line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/><line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/><line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/><line x1="800" y1="0" x2="800" y2="400"/>
+  </g>
+
+  <!-- Neural network connections - animated particles -->
+  <g filter="url(#soft-glow)">
+    <!-- Connection lines -->
+    <line x1="150" y1="200" x2="300" y2="120" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="150" y1="200" x2="300" y2="200" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="150" y1="200" x2="300" y2="280" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="300" y1="120" x2="450" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+    <line x1="300" y1="200" x2="450" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+    <line x1="300" y1="280" x2="450" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+    <line x1="450" y1="200" x2="600" y2="120" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="450" y1="200" x2="600" y2="200" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="450" y1="200" x2="600" y2="280" stroke="#58A6FF" stroke-width="1" opacity="0.2"/>
+    <line x1="600" y1="120" x2="750" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+    <line x1="600" y1="200" x2="750" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+    <line x1="600" y1="280" x2="750" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.2"/>
+
+    <!-- Animated particles along connections -->
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M150,200 L300,120"/>
+    </circle>
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M150,200 L300,200"/>
+    </circle>
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M150,200 L300,280"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M300,120 L450,200"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="3.8s" repeatCount="indefinite" path="M300,200 L450,200"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="4.2s" repeatCount="indefinite" path="M300,280 L450,200"/>
+    </circle>
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="3.4s" repeatCount="indefinite" path="M450,200 L600,120"/>
+    </circle>
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="3.6s" repeatCount="indefinite" path="M450,200 L600,200"/>
+    </circle>
+    <circle r="2.5" fill="#58A6FF" opacity="0.8">
+      <animateMotion dur="4.1s" repeatCount="indefinite" path="M450,200 L600,280"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="3.3s" repeatCount="indefinite" path="M600,120 L750,200"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="3.9s" repeatCount="indefinite" path="M600,200 L750,200"/>
+    </circle>
+    <circle r="2.5" fill="#A371F7" opacity="0.8">
+      <animateMotion dur="4.3s" repeatCount="indefinite" path="M600,280 L750,200"/>
+    </circle>
+  </g>
+
+  <!-- Nodes -->
+  <g filter="url(#glow)">
+    <!-- INPUT node -->
+    <circle cx="150" cy="200" r="18" fill="none" stroke="#58A6FF" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="16;20;16" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="200" r="6" fill="#58A6FF" opacity="0.8">
+      <animate attributeName="r" values="5;7;5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- DATA layer -->
+    <circle cx="300" cy="120" r="12" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="10;14;10" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="120" r="4" fill="#58A6FF" opacity="0.7"/>
+    <circle cx="300" cy="200" r="14" fill="none" stroke="#58A6FF" stroke-width="1.2" opacity="0.5">
+      <animate attributeName="r" values="12;16;12" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="200" r="5" fill="#58A6FF" opacity="0.7"/>
+    <circle cx="300" cy="280" r="12" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="10;14;10" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="280" r="4" fill="#58A6FF" opacity="0.7"/>
+
+    <!-- AI core - larger pulsing node -->
+    <circle cx="450" cy="200" r="28" fill="none" stroke="url(#accent-grad)" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="25;32;25" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="200" r="10" fill="url(#node-grad)" opacity="0.9">
+      <animate attributeName="r" values="8;12;8" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- SYSTEM layer -->
+    <circle cx="600" cy="120" r="12" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="10;14;10" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="120" r="4" fill="#A371F7" opacity="0.7"/>
+    <circle cx="600" cy="200" r="14" fill="none" stroke="#A371F7" stroke-width="1.2" opacity="0.5">
+      <animate attributeName="r" values="12;16;12" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="200" r="5" fill="#A371F7" opacity="0.7"/>
+    <circle cx="600" cy="280" r="12" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="10;14;10" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="280" r="4" fill="#A371F7" opacity="0.7"/>
+
+    <!-- IMPACT node -->
+    <circle cx="750" cy="200" r="18" fill="none" stroke="#3FB950" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="16;20;16" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="200" r="6" fill="#3FB950" opacity="0.8">
+      <animate attributeName="r" values="5;7;5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Node labels -->
+  <text x="150" y="245" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="1">INPUT</text>
+  <text x="300" y="85" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="1">DATA</text>
+  <text x="450" y="255" text-anchor="middle" fill="url(#accent-grad)" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="12" font-weight="bold" letter-spacing="1">AI</text>
+  <text x="600" y="85" text-anchor="middle" fill="#A371F7" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="1">SYSTEM</text>
+  <text x="750" y="245" text-anchor="middle" fill="#3FB950" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="1">IMPACT</text>
+
+  <!-- Name -->
+  <text x="450" y="35" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="28" font-weight="bold" letter-spacing="3">KARAN SASANE</text>
+  <line x1="300" y1="45" x2="600" y2="45" stroke="url(#accent-grad)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Identity line -->
+  <text x="450" y="65" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" letter-spacing="2">AI/ML  ·  DATA  ·  AUTOMATION  ·  SYSTEMS</text>
+
+  <!-- Philosophy quote -->
+  <text x="450" y="370" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" font-style="italic" opacity="0.7">"I don't just use AI — I engineer systems around it."</text>
+
+  <!-- Decorative corner accents -->
+  <line x1="20" y1="20" x2="60" y2="20" stroke="#58A6FF" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#58A6FF" stroke-width="1" opacity="0.3"/>
+  <line x1="840" y1="380" x2="880" y2="380" stroke="#A371F7" stroke-width="1" opacity="0.3"/>
+  <line x1="880" y1="340" x2="880" y2="380" stroke="#A371F7" stroke-width="1" opacity="0.3"/>
+
+  <!-- Scan line effect -->
+  <rect width="900" height="2" fill="#58A6FF" opacity="0.05">
+    <animate attributeName="y" values="0;400;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

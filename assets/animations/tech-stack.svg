@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" role="img" aria-label="Technology stack visualization">
+  <defs>
+    <linearGradient id="tech-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#A371F7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="300" fill="#0B0F14"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" fill="#E6EDF3" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="14" font-weight="bold" letter-spacing="3">TECHNOLOGY STACK</text>
+  <line x1="250" y1="40" x2="450" y2="40" stroke="url(#tech-grad)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Central Python node -->
+  <circle cx="350" cy="100" r="30" fill="none" stroke="#58A6FF" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" values="28;32;28" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="100" r="12" fill="#58A6FF" opacity="0.8"/>
+  <text x="350" y="104" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" font-weight="bold">PY</text>
+  <text x="350" y="148" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" font-weight="bold">Python</text>
+
+  <!-- Branch connections -->
+  <!-- Left: Data -->
+  <line x1="320" y1="110" x2="150" y2="180" stroke="#58A6FF" stroke-width="1" opacity="0.3"/>
+  <circle r="2" fill="#58A6FF" opacity="0.7">
+    <animateMotion dur="2s" repeatCount="indefinite" path="M320,110 L150,180"/>
+  </circle>
+
+  <!-- Center-left: AI/ML -->
+  <line x1="340" y1="120" x2="280" y2="200" stroke="#A371F7" stroke-width="1" opacity="0.3"/>
+  <circle r="2" fill="#A371F7" opacity="0.7">
+    <animateMotion dur="2.3s" repeatCount="indefinite" path="M340,120 L280,200"/>
+  </circle>
+
+  <!-- Center-right: Automation -->
+  <line x1="360" y1="120" x2="420" y2="200" stroke="#58A6FF" stroke-width="1" opacity="0.3"/>
+  <circle r="2" fill="#58A6FF" opacity="0.7">
+    <animateMotion dur="2.6s" repeatCount="indefinite" path="M360,120 L420,200"/>
+  </circle>
+
+  <!-- Right: Languages -->
+  <line x1="380" y1="110" x2="550" y2="180" stroke="#A371F7" stroke-width="1" opacity="0.3"/>
+  <circle r="2" fill="#A371F7" opacity="0.7">
+    <animateMotion dur="2.9s" repeatCount="indefinite" path="M380,110 L550,180"/>
+  </circle>
+
+  <!-- Data branch -->
+  <circle cx="150" cy="180" r="18" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="16;20;16" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="180" r="7" fill="#58A6FF" opacity="0.7"/>
+  <text x="150" y="184" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" font-weight="bold">D</text>
+  <text x="150" y="215" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9">Data</text>
+
+  <!-- Data sub-items -->
+  <text x="100" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">NumPy</text>
+  <text x="150" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Pandas</text>
+  <text x="200" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Matplotlib</text>
+  <text x="125" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">SQL</text>
+  <text x="175" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Seaborn</text>
+
+  <!-- AI/ML branch -->
+  <circle cx="280" cy="200" r="18" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="16;20;16" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="200" r="7" fill="#A371F7" opacity="0.7"/>
+  <text x="280" y="204" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" font-weight="bold">AI</text>
+  <text x="280" y="235" text-anchor="middle" fill="#A371F7" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9">AI / ML</text>
+
+  <text x="250" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">ML</text>
+  <text x="295" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Optimization</text>
+  <text x="270" y="265" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Algorithms</text>
+
+  <!-- Automation branch -->
+  <circle cx="420" cy="200" r="18" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="16;20;16" dur="4.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="200" r="7" fill="#58A6FF" opacity="0.7"/>
+  <text x="420" y="204" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" font-weight="bold">A</text>
+  <text x="420" y="235" text-anchor="middle" fill="#58A6FF" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9">Automation</text>
+
+  <text x="395" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Systems</text>
+  <text x="450" y="250" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Git</text>
+  <text x="420" y="265" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">GitHub</text>
+
+  <!-- Languages branch -->
+  <circle cx="550" cy="180" r="18" fill="none" stroke="#A371F7" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="16;20;16" dur="4.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="180" r="7" fill="#A371F7" opacity="0.7"/>
+  <text x="550" y="184" text-anchor="middle" fill="#0B0F14" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" font-weight="bold">L</text>
+  <text x="550" y="215" text-anchor="middle" fill="#A371F7" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9">Languages</text>
+
+  <text x="515" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Python</text>
+  <text x="550" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">C++</text>
+  <text x="580" y="235" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Java</text>
+
+  <!-- Convergence to Systems -->
+  <line x1="150" y1="200" x2="350" y2="285" stroke="#3FB950" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+  <line x1="280" y1="220" x2="350" y2="285" stroke="#3FB950" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+  <line x1="420" y1="220" x2="350" y2="285" stroke="#3FB950" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+  <line x1="550" y1="200" x2="350" y2="285" stroke="#3FB950" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+
+  <text x="350" y="292" text-anchor="middle" fill="#3FB950" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="2">SYSTEMS</text>
+</svg>

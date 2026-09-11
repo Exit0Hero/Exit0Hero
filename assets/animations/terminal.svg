@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" role="img" aria-label="Terminal initialization animation">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0B0F14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Terminal window -->
+  <rect x="1" y="1" width="698" height="278" rx="8" fill="url(#term-bg)" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="1" y="1" width="698" height="32" rx="8" fill="#161B22"/>
+  <rect x="1" y="25" width="698" height="8" fill="#161B22"/>
+  <circle cx="22" cy="17" r="5" fill="#FF5F56"/>
+  <circle cx="40" cy="17" r="5" fill="#FFBD2E"/>
+  <circle cx="58" cy="17" r="5" fill="#27C93F"/>
+  <text x="350" y="20" text-anchor="middle" fill="#8B949E" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11">karan@sasane — ~/systems</text>
+
+  <!-- Terminal content area -->
+  <g font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="12">
+    <!-- Line 1: Command -->
+    <text x="16" y="58" fill="#E6EDF3" opacity="0">
+      $ ./initialize --mode=building
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="0.5s"/>
+    </text>
+
+    <!-- Line 2: Loading AI layer -->
+    <text x="16" y="82" fill="#8B949E" opacity="0">
+      Loading intelligence layer...
+      <animate attributeName="opacity" values="0;1" dur="0.2s" fill="freeze" begin="1.5s"/>
+    </text>
+    <text x="340" y="82" fill="#3FB950" opacity="0">
+      ✓
+      <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="2.2s"/>
+    </text>
+
+    <!-- Line 3: Loading data systems -->
+    <text x="16" y="102" fill="#8B949E" opacity="0">
+      Loading data systems..........
+      <animate attributeName="opacity" values="0;1" dur="0.2s" fill="freeze" begin="2.3s"/>
+    </text>
+    <text x="340" y="102" fill="#3FB950" opacity="0">
+      ✓
+      <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="3.0s"/>
+    </text>
+
+    <!-- Line 4: Loading automation -->
+    <text x="16" y="122" fill="#8B949E" opacity="0">
+      Loading automation...........
+      <animate attributeName="opacity" values="0;1" dur="0.2s" fill="freeze" begin="3.1s"/>
+    </text>
+    <text x="340" y="122" fill="#3FB950" opacity="0">
+      ✓
+      <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="3.8s"/>
+    </text>
+
+    <!-- Line 5: Loading algorithms -->
+    <text x="16" y="142" fill="#8B949E" opacity="0">
+      Loading algorithms...........
+      <animate attributeName="opacity" values="0;1" dur="0.2s" fill="freeze" begin="3.9s"/>
+    </text>
+    <text x="340" y="142" fill="#3FB950" opacity="0">
+      ✓
+      <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="4.6s"/>
+    </text>
+
+    <!-- Line 6: Loading ideas -->
+    <text x="16" y="162" fill="#8B949E" opacity="0">
+      Loading ideas................
+      <animate attributeName="opacity" values="0;1" dur="0.2s" fill="freeze" begin="4.7s"/>
+    </text>
+    <text x="340" y="162" fill="#3FB950" opacity="0">
+      ✓
+      <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="5.4s"/>
+    </text>
+
+    <!-- Line 7: Blank -->
+    <text x="16" y="182" fill="#0B0F14" opacity="0">_</text>
+
+    <!-- Line 8: System status -->
+    <text x="16" y="200" fill="#58A6FF" font-weight="bold" opacity="0">
+      SYSTEM STATUS: BUILDING
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="5.8s"/>
+    </text>
+
+    <!-- Line 9: Blank -->
+    <text x="16" y="220" fill="#0B0F14" opacity="0">_</text>
+
+    <!-- Line 10: Ready -->
+    <text x="16" y="240" fill="#3FB950" opacity="0">
+      > ready_
+      <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" begin="6.2s"/>
+      <animate attributeName="fill" values="#3FB950;#58A6FF;#3FB950" dur="2s" repeatCount="indefinite" begin="6.5s"/>
+    </text>
+
+    <!-- Blinking cursor -->
+    <rect x="85" y="228" width="8" height="14" fill="#3FB950" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="6.2s"/>
+    </rect>
+  </g>
+</svg>

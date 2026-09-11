@@ -1,0 +1,59 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout contribution snake (Platane/snk)
+        uses: actions/checkout@v4
+        with:
+          repository: Platane/snk
+          ref: v3
+          path: snk
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: cd snk && npm ci
+
+      - name: Generate snake animation (dark)
+        run: |
+          cd snk
+          npx snk \
+            --user Exit0Hero \
+            --color-scheme dark \
+            --svg-out ../assets/animations/github-snake-dark.svg
+
+      - name: Generate snake animation (light)
+        run: |
+          cd snk
+          npx snk \
+            --user Exit0Hero \
+            --color-scheme light \
+            --svg-out ../assets/animations/github-snake-light.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/animations/github-snake-dark.svg assets/animations/github-snake-light.svg
+          git diff --cached --quiet || git commit -m "chore: update contribution snake animation"
+          git push
