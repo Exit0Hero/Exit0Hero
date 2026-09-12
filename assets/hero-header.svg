@@ -141,13 +141,17 @@
       <animate attributeName="stroke-opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Profile placeholder circle -->
-    <circle cx="425" cy="140" r="82" fill="#14171C" stroke="#FF9E3B" stroke-width="1" opacity="0.8"/>
-    <circle cx="425" cy="140" r="82" fill="#FF9E3B" opacity="0.05"/>
+    <!-- Profile circle clip -->
+    <clipPath id="profile-clip">
+      <circle cx="425" cy="140" r="82"/>
+    </clipPath>
 
-    <!-- Initials placeholder -->
-    <text x="425" y="135" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="32" font-weight="bold" opacity="0.6">KS</text>
-    <text x="425" y="158" text-anchor="middle" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="2">PROFILE</text>
+    <!-- Profile photo -->
+    <circle cx="425" cy="140" r="82" fill="#14171C" stroke="#FF9E3B" stroke-width="1" opacity="0.8"/>
+    <image x="343" y="58" width="164" height="164" href="assets/profile-photo.png" clip-path="url(#profile-clip)" preserveAspectRatio="xMidYMid slice"/>
+
+    <!-- Radial fade over photo edges -->
+    <circle cx="425" cy="140" r="82" fill="none" stroke="#0D0F12" stroke-width="8" opacity="0.4"/>
 
     <!-- Tech data points around profile -->
     <g font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" fill="#8E95A5" opacity="0.4">
