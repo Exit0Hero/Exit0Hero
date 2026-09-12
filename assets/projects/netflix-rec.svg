@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 160" role="img" aria-label="Netflix Stats Explorer — Data visualization dashboard">
+  <defs>
+    <linearGradient id="nr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171C"/>
+      <stop offset="100%" stop-color="#1A1D24"/>
+    </linearGradient>
+    <linearGradient id="nr-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC143C"/>
+      <stop offset="100%" stop-color="#FF4444"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="820" height="160" rx="8" fill="url(#nr-bg)" stroke="#DC143C" stroke-width="0.5" opacity="0.9"/>
+  <rect x="0" y="0" width="820" height="2" rx="1" fill="url(#nr-accent)" opacity="0.7"/>
+  <rect x="1" y="1" width="818" height="78" rx="7" fill="white" opacity="0.02"/>
+
+  <circle cx="30" cy="30" r="5" fill="#DC143C" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="42" y="34" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" letter-spacing="1">BUILT</text>
+
+  <rect x="30" y="55" width="50" height="50" rx="8" fill="#DC143C" opacity="0.08" stroke="#DC143C" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="55" y="85" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="16" font-weight="bold" opacity="0.7">NX</text>
+
+  <text x="100" y="72" fill="#F3F4F6" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="18" font-weight="bold">Netflix Stats Explorer</text>
+
+  <text x="100" y="92" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10">Interactive data visualization dashboard showcasing</text>
+  <text x="100" y="106" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10">insights from Netflix's content catalog.</text>
+
+  <g transform="translate(100, 118)">
+    <rect x="0" y="0" width="52" height="18" rx="9" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="26" y="13" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Python</text>
+
+    <rect x="58" y="0" width="56" height="18" rx="9" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="86" y="13" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Pandas</text>
+
+    <rect x="120" y="0" width="68" height="18" rx="9" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="154" y="13" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Streamlit</text>
+
+    <rect x="194" y="0" width="52" height="18" rx="9" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="220" y="13" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Plotly</text>
+  </g>
+
+  <g transform="translate(680, 60)">
+    <rect x="0" y="0" width="110" height="32" rx="6" fill="#DC143C" opacity="0.1" stroke="#DC143C" stroke-width="1"/>
+    <text x="55" y="20" text-anchor="middle" fill="#DC143C" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">VIEW →</text>
+  </g>
+
+  <g stroke="#DC143C" stroke-width="1" fill="none" opacity="0.2">
+    <polyline points="8,8 8,20"/><polyline points="8,8 20,8"/>
+    <polyline points="812,8 812,20"/><polyline points="812,8 800,8"/>
+    <polyline points="8,152 8,140"/><polyline points="8,152 20,152"/>
+    <polyline points="812,152 812,140"/><polyline points="812,152 800,152"/>
+  </g>
+
+  <text x="770" y="150" text-anchor="end" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" opacity="0.3">PRJ.004</text>
+</svg>

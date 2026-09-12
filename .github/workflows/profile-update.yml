@@ -1,4 +1,4 @@
-name: Update Profile Assets
+name: Validate Profile Assets
 
 on:
   schedule:
@@ -6,47 +6,48 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-stats:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Generate updated stats images
-        run: |
-          # The stats are dynamic via external services (github-readme-stats, streak-stats)
-          # This workflow ensures the snake and other generated assets stay current
-          echo "Profile assets are up to date."
-
       - name: Verify all image assets exist
         run: |
           REQUIRED_FILES=(
-            "assets/hero/hero.svg"
-            "assets/animations/terminal.svg"
-            "assets/animations/typing.svg"
-            "assets/animations/tech-stack.svg"
-            "assets/animations/philosophy.svg"
-            "assets/animations/status-loop.svg"
-            "assets/animations/build-areas.svg"
-            "assets/animations/currently-building.svg"
-            "assets/projects/projects.svg"
+            "assets/hero-header.svg"
+            "assets/positioning-banner.svg"
+            "assets/tech-matrix.svg"
+            "assets/stats-card.svg"
+            "assets/terminal-log.svg"
+            "assets/status-loop.svg"
+            "assets/social-footer.svg"
+            "assets/projects/schedule-ai.svg"
+            "assets/projects/adapt-iq.svg"
+            "assets/projects/interview-simulator.svg"
+            "assets/projects/netflix-rec.svg"
+            "assets/projects/minibiz-erp.svg"
           )
 
+          echo "Validating profile assets..."
+          FAILED=0
           for file in "${REQUIRED_FILES[@]}"; do
             if [ ! -f "$file" ]; then
               echo "MISSING: $file"
-              exit 1
+              FAILED=1
+            else
+              SIZE=$(wc -c < "$file")
+              echo "OK: $file (${SIZE} bytes)"
             fi
-            echo "OK: $file"
           done
+
+          if [ $FAILED -eq 1 ]; then
+            echo "ERROR: Required assets missing!"
+            exit 1
+          fi
 
           echo "All required assets verified."

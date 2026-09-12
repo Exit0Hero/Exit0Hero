@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 120" role="img" aria-label="Positioning statement: I don't just use AI — I engineer systems around it.">
+  <defs>
+    <linearGradient id="banner-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#FF9E3B" stop-opacity="0.6"/>
+      <stop offset="85%" stop-color="#FF6B35" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bracket-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9E3B"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="850" height="120" fill="#14171C" rx="6"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.03" stroke="#FF9E3B" stroke-width="0.5">
+    <line x1="0" y1="30" x2="850" y2="30"/><line x1="0" y1="60" x2="850" y2="60"/>
+    <line x1="0" y1="90" x2="850" y2="90"/>
+    <line x1="150" y1="0" x2="150" y2="120"/><line x1="425" y1="0" x2="425" y2="120"/>
+    <line x1="700" y1="0" x2="700" y2="120"/>
+  </g>
+
+  <!-- Top border line -->
+  <line x1="0" y1="1" x2="850" y2="1" stroke="url(#banner-border)" stroke-width="1"/>
+
+  <!-- Glowing corner brackets -->
+  <g stroke="url(#bracket-grad)" stroke-width="2" fill="none" filter="url(#glow-amber)">
+    <!-- Top-left -->
+    <polyline points="16,16 16,36"/>
+    <polyline points="16,16 36,16"/>
+    <!-- Top-right -->
+    <polyline points="834,16 834,36"/>
+    <polyline points="834,16 814,16"/>
+    <!-- Bottom-left -->
+    <polyline points="16,104 16,84"/>
+    <polyline points="16,104 36,104"/>
+    <!-- Bottom-right -->
+    <polyline points="834,104 834,84"/>
+    <polyline points="834,104 814,104"/>
+  </g>
+
+  <!-- Glow filter definition -->
+  <defs>
+    <filter id="glow-amber">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Quote mark -->
+  <text x="60" y="72" fill="#FF9E3B" font-family="'Georgia',serif" font-size="48" opacity="0.15">"</text>
+
+  <!-- Statement text -->
+  <text x="425" y="55" text-anchor="middle" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" letter-spacing="2">POSITIONING STATEMENT</text>
+
+  <text x="425" y="80" text-anchor="middle" fill="#F3F4F6" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="15" font-weight="bold">
+    I don't just use AI —
+    <tspan fill="#FF9E3B">I engineer systems around it.</tspan>
+  </text>
+
+  <!-- Decorative data points -->
+  <g font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" fill="#8E95A5" opacity="0.3">
+    <text x="30" y="110">001</text>
+    <text x="800" y="110">001</text>
+  </g>
+
+  <!-- Pulse indicator -->
+  <circle cx="425" cy="105" r="2" fill="#FF9E3B" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

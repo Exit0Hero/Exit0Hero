@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" role="img" aria-label="Current telemetry and what I am building">
+  <defs>
+    <linearGradient id="tl-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="220" fill="#14171C" rx="6" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="700" height="28" rx="6" fill="#1A1D24"/>
+  <rect x="0" y="22" width="700" height="6" fill="#1A1D24"/>
+  <circle cx="18" cy="14" r="4.5" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="34" cy="14" r="4.5" fill="#FF9E3B" opacity="0.8"/>
+  <circle cx="50" cy="14" r="4.5" fill="#10B981" opacity="0.8"/>
+  <text x="350" y="18" text-anchor="middle" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" letter-spacing="1">telemetry.log</text>
+
+  <!-- Terminal content -->
+  <g font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10">
+    <!-- Prompt -->
+    <text x="16" y="52" fill="#FF9E3B">$</text>
+    <text x="28" y="52" fill="#F3F4F6">cat current_telemetry.status</text>
+
+    <!-- Blank line -->
+    <text x="16" y="68" fill="#14171C">_</text>
+
+    <!-- Section header -->
+    <text x="16" y="84" fill="#FF9E3B" font-weight="bold">[ CURRENTLY BUILDING ]</text>
+
+    <!-- Items with animated dots -->
+    <g>
+      <circle cx="24" cy="100" r="2" fill="#FF9E3B" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="103" fill="#8E95A5">→</text>
+      <text x="48" y="103" fill="#F3F4F6">Intelligent scheduling systems</text>
+      <text x="340" y="103" fill="#FF9E3B" opacity="0.5">SCHEDULE_AI</text>
+    </g>
+
+    <g>
+      <circle cx="24" cy="120" r="2" fill="#00F2FE" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="123" fill="#8E95A5">→</text>
+      <text x="48" y="123" fill="#F3F4F6">AI/ML model experiments</text>
+      <text x="340" y="123" fill="#00F2FE" opacity="0.5">ML_EXPERIMENTS</text>
+    </g>
+
+    <g>
+      <circle cx="24" cy="140" r="2" fill="#FF6B35" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="143" fill="#8E95A5">→</text>
+      <text x="48" y="143" fill="#F3F4F6">Data pipeline architecture</text>
+      <text x="340" y="143" fill="#FF6B35" opacity="0.5">DATA_PIPE</text>
+    </g>
+
+    <g>
+      <circle cx="24" cy="160" r="2" fill="#10B981" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="163" fill="#8E95A5">→</text>
+      <text x="48" y="163" fill="#F3F4F6">Automation workflow engineering</text>
+      <text x="340" y="163" fill="#10B981" opacity="0.5">AUTO_ENG</text>
+    </g>
+
+    <!-- Status line -->
+    <text x="16" y="185" fill="#30363D">─────────────────────────────────────────────────────────────</text>
+    <text x="16" y="202" fill="#8E95A5" font-size="9">STATUS:</text>
+    <text x="70" y="202" fill="#10B981" font-weight="bold">BUILDING</text>
+    <text x="160" y="202" fill="#8E95A5" font-size="9">MODE:</text>
+    <text x="200" y="202" fill="#FF9E3B" font-weight="bold">ENGINEERING</text>
+    <text x="310" y="202" fill="#8E95A5" font-size="9">UPTIME:</text>
+    <text x="360" y="202" fill="#00F2FE" font-weight="bold">CONTINUOUS</text>
+  </g>
+
+  <!-- Blinking cursor -->
+  <rect x="430" y="190" width="8" height="12" fill="#FF9E3B" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -54,6 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p assets/animations
           git add assets/animations/github-snake-dark.svg assets/animations/github-snake-light.svg
           git diff --cached --quiet || git commit -m "chore: update contribution snake animation"
           git push

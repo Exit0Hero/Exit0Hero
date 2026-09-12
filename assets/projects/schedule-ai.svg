@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 160" role="img" aria-label="Schedule AI — Intelligent timetable scheduling system">
+  <defs>
+    <linearGradient id="sa-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171C"/>
+      <stop offset="100%" stop-color="#1A1D24"/>
+    </linearGradient>
+    <linearGradient id="sa-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+    <filter id="sa-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card body -->
+  <rect width="820" height="160" rx="8" fill="url(#sa-bg)" stroke="#FF9E3B" stroke-width="0.5" opacity="0.9"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="820" height="2" rx="1" fill="url(#sa-accent)" opacity="0.7"/>
+
+  <!-- Glassmorphism overlay -->
+  <rect x="1" y="1" width="818" height="78" rx="7" fill="white" opacity="0.02"/>
+
+  <!-- Status indicator -->
+  <circle cx="30" cy="30" r="5" fill="#FF9E3B" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="42" y="34" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" letter-spacing="1">BUILT</text>
+
+  <!-- Project icon area -->
+  <rect x="30" y="55" width="50" height="50" rx="8" fill="#FF9E3B" opacity="0.08" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="55" y="85" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="18" font-weight="bold" opacity="0.7">SA</text>
+
+  <!-- Title -->
+  <text x="100" y="72" fill="#F3F4F6" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="18" font-weight="bold">Schedule AI</text>
+
+  <!-- Description -->
+  <text x="100" y="92" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10">Intelligent college timetable scheduling system</text>
+  <text x="100" y="106" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10">built around constraint satisfaction and optimization.</text>
+
+  <!-- Tech pills -->
+  <g transform="translate(100, 118)">
+    <rect x="0" y="0" width="52" height="18" rx="9" fill="#FF9E3B" opacity="0.1" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="26" y="13" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Python</text>
+
+    <rect x="58" y="0" width="42" height="18" rx="9" fill="#FF9E3B" opacity="0.1" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="79" y="13" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">GA</text>
+
+    <rect x="106" y="0" width="42" height="18" rx="9" fill="#FF9E3B" opacity="0.1" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="127" y="13" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">CSP</text>
+
+    <rect x="154" y="0" width="50" height="18" rx="9" fill="#FF9E3B" opacity="0.1" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="179" y="13" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">Optim</text>
+  </g>
+
+  <!-- CTA button -->
+  <g transform="translate(680, 60)">
+    <rect x="0" y="0" width="110" height="32" rx="6" fill="#FF9E3B" opacity="0.1" stroke="#FF9E3B" stroke-width="1"/>
+    <text x="55" y="20" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" font-weight="bold">VIEW →</text>
+  </g>
+
+  <!-- HUD corner accents -->
+  <g stroke="#FF9E3B" stroke-width="1" fill="none" opacity="0.2">
+    <polyline points="8,8 8,20"/><polyline points="8,8 20,8"/>
+    <polyline points="812,8 812,20"/><polyline points="812,8 800,8"/>
+    <polyline points="8,152 8,140"/><polyline points="8,152 20,152"/>
+    <polyline points="812,152 812,140"/><polyline points="812,152 800,152"/>
+  </g>
+
+  <!-- Data readout -->
+  <text x="770" y="150" text-anchor="end" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" opacity="0.3">PRJ.001</text>
+</svg>

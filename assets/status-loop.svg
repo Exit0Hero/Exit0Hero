@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 80" role="img" aria-label="System loop: Build, Learn, Experiment, Repeat">
+  <defs>
+    <linearGradient id="sl-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B"/>
+      <stop offset="33%" stop-color="#FF6B35"/>
+      <stop offset="66%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="80" fill="#0D0F12"/>
+
+  <text x="300" y="18" text-anchor="middle" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="3">SYSTEM LOOP</text>
+
+  <!-- Loop nodes -->
+  <circle cx="100" cy="42" r="14" fill="none" stroke="#FF9E3B" stroke-width="1.2" opacity="0.5">
+    <animate attributeName="r" values="12;16;12" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="42" r="5" fill="#FF9E3B" opacity="0.8"/>
+  <text x="100" y="70" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">BUILD</text>
+
+  <line x1="118" y1="42" x2="195" y2="42" stroke="#FF9E3B" stroke-width="0.8" opacity="0.3"/>
+  <circle r="1.5" fill="#FF9E3B" opacity="0.6">
+    <animateMotion dur="1.2s" repeatCount="indefinite" path="M118,42 L195,42"/>
+  </circle>
+
+  <circle cx="215" cy="42" r="14" fill="none" stroke="#FF6B35" stroke-width="1.2" opacity="0.5">
+    <animate attributeName="r" values="12;16;12" dur="3.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="215" cy="42" r="5" fill="#FF6B35" opacity="0.8"/>
+  <text x="215" y="70" text-anchor="middle" fill="#FF6B35" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">LEARN</text>
+
+  <line x1="233" y1="42" x2="310" y2="42" stroke="#FF6B35" stroke-width="0.8" opacity="0.3"/>
+  <circle r="1.5" fill="#FF6B35" opacity="0.6">
+    <animateMotion dur="1.4s" repeatCount="indefinite" path="M233,42 L310,42"/>
+  </circle>
+
+  <circle cx="330" cy="42" r="14" fill="none" stroke="#00F2FE" stroke-width="1.2" opacity="0.5">
+    <animate attributeName="r" values="12;16;12" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="42" r="5" fill="#00F2FE" opacity="0.8"/>
+  <text x="330" y="70" text-anchor="middle" fill="#00F2FE" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">EXPERIMENT</text>
+
+  <line x1="348" y1="42" x2="425" y2="42" stroke="#00F2FE" stroke-width="0.8" opacity="0.3"/>
+  <circle r="1.5" fill="#00F2FE" opacity="0.6">
+    <animateMotion dur="1.6s" repeatCount="indefinite" path="M348,42 L425,42"/>
+  </circle>
+
+  <circle cx="445" cy="42" r="14" fill="none" stroke="#10B981" stroke-width="1.2" opacity="0.5">
+    <animate attributeName="r" values="12;16;12" dur="3.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="445" cy="42" r="5" fill="#10B981" opacity="0.8"/>
+  <text x="445" y="70" text-anchor="middle" fill="#10B981" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" font-weight="bold">REPEAT</text>
+
+  <!-- Loop back arrow -->
+  <path d="M 462 42 Q 530 42 530 22 Q 530 5 460 5 Q 85 5 85 22 Q 85 42 84 42" fill="none" stroke="#30363D" stroke-width="0.8" opacity="0.25"/>
+  <circle r="1.5" fill="#10B981" opacity="0.4">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M462,42 Q530,42 530,22 Q530,5 460,5 Q85,5 85,22 Q85,42 84,42"/>
+  </circle>
+
+  <text x="300" y="78" text-anchor="middle" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="7" letter-spacing="2" opacity="0.4">
+    [ LOOP CONTINUES ]
+  </text>
+</svg>

@@ -1,140 +1,91 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="assets/hero/hero.svg" alt="Karan Sasane - AI/ML Engineer" width="100%"/>
-
-<br/>
-
-<!-- Typing Animation -->
-<img src="assets/animations/typing.svg" alt="Rotating roles: AI/ML Engineer, Data Analyst, Python Developer" width="500"/>
+<img src="assets/hero-header.svg" alt="Karan Sasane — AI Systems Engineer" width="100%"/>
 
 </div>
 
 ---
 
-<br/>
-
-<!-- Terminal Animation -->
 <div align="center">
-<img src="assets/animations/terminal.svg" alt="Terminal initialization sequence" width="650"/>
+
+<img src="assets/positioning-banner.svg" alt="I don't just use AI — I engineer systems around it." width="100%"/>
+
 </div>
-
-<br/>
-
----
-
-## About
-
-I build intelligent systems at the intersection of AI, data, and software.
-
-Currently exploring how algorithms, automation, and machine learning can turn messy real-world problems into systems that actually work.
-
-<br/>
 
 ---
 
 ## What I Build
 
-<img src="assets/animations/build-areas.svg" alt="What I Build - AI/ML, Data Analytics, Automation, Intelligent Systems, Software Engineering" width="100%"/>
+<div align="center">
+
+<img src="assets/projects/schedule-ai.svg" alt="Schedule AI — Intelligent timetable scheduling" width="100%"/>
 
 <br/>
+
+<img src="assets/projects/adapt-iq.svg" alt="AdaptIQ — Adaptive learning system" width="100%"/>
+
+<br/>
+
+<img src="assets/projects/interview-simulator.svg" alt="Interview Simulator — AI-powered mock interviews" width="100%"/>
+
+<br/>
+
+<img src="assets/projects/netflix-rec.svg" alt="Netflix Stats Explorer — Data visualization" width="100%"/>
+
+<br/>
+
+<img src="assets/projects/minibiz-erp.svg" alt="MiniBiz ERP — AI-powered business intelligence" width="100%"/>
+
+</div>
 
 ---
 
-## Featured Projects
-
-<img src="assets/projects/projects.svg" alt="Featured Projects - Schedule AI, SENTINEL, AdaptIQ, Netflix Stats Explorer" width="100%"/>
-
-<br/>
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### Schedule AI
-
-Intelligent college timetable scheduling system built around constraint satisfaction and optimization.
-
-**Stack:** Python · Genetic Algorithms · CSP · AI Parsing
-
-**Concepts:** Scheduling · Optimization · Conflict Prevention · Professor Availability
-
-<br/>
-
-</td>
-<td align="center" width="50%">
-
-### SENTINEL
-
-SIH26153 — AI-Based Network Attack Forecasting from Network Traffic Data. An offline, explainable temporal cyber-defence prototype.
-
-**Stack:** Python · ML · Graph Reasoning · Temporal Analysis
-
-**Concepts:** Attack Forecasting · Explainability · Threat Intelligence · Tamper-Evident Evidence
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-### AdaptIQ
-
-Adaptive learning system using knowledge graphs, learner diagnosis, and AI assistance to personalize education.
-
-**Stack:** TypeScript · AI · Knowledge Graphs
-
-**Concepts:** Adaptive Learning · Learner Diagnosis · AI Companion · Learning Analytics
-
-</td>
-<td align="center">
-
-### Netflix Stats Explorer
-
-Interactive data visualization dashboard showcasing insights from Netflix's content catalog using Python.
-
-**Stack:** Python · Pandas · Matplotlib · Streamlit · Plotly
-
-**Concepts:** Data Visualization · Trend Analysis · Interactive Dashboards
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-## Technology Stack
-
-<img src="assets/animations/tech-stack.svg" alt="Technology Stack - Python, AI/ML, Data, Automation, Languages" width="100%"/>
-
-<br/>
-
----
-
-## Currently Building
-
-<img src="assets/animations/currently-building.svg" alt="Currently building intelligent scheduling systems, AI/ML experiments, data-driven applications" width="550"/>
-
-<br/>
-
----
-
-## GitHub Statistics
+## Technology Matrix
 
 <div align="center">
 
-<!-- Stats Card -->
-<img src="https://github-readme-stats.vercel.app/api?username=Exit0Hero&show_icons=true&theme=dark&bg_color=0B0F14&hide_border=true&title_color=58A6FF&icon_color=A371F7&text_color=E6EDF3&ring_color=58A6FF" alt="GitHub Stats" width="400"/>
+<img src="assets/tech-matrix.svg" alt="Technology stack matrix" width="100%"/>
+
+</div>
+
+---
+
+## Current Telemetry
+
+<div align="center">
+
+<img src="assets/terminal-log.svg" alt="Current telemetry and what I am building" width="100%"/>
+
+</div>
+
+---
+
+## GitHub Telemetry
+
+<div align="center">
+
+<img src="assets/stats-card.svg" alt="GitHub statistics overview" width="495"/>
+
+</div>
+
+<div align="center">
+
+<!-- Dynamic GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=Exit0Hero&show_icons=true&theme=dark&bg_color=0D0F12&hide_border=true&title_color=FF9E3B&icon_color=FF6B35&text_color=F3F4F6&ring_color=FF9E3B" alt="GitHub Stats" width="400"/>
 
 &nbsp;&nbsp;
 
 <!-- Top Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Exit0Hero&layout=compact&theme=dark&bg_color=0B0F14&hide_border=true&title_color=58A6FF&text_color=E6EDF3&langs_count=8" alt="Top Languages" width="280"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Exit0Hero&layout=compact&theme=dark&bg_color=0D0F12&hide_border=true&title_color=FF9E3B&text_color=F3F4F6&langs_count=6" alt="Top Languages" width="260"/>
 
 </div>
 
-<br/>
+<div align="center">
+
+<!-- Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Exit0Hero&theme=dark&background=0D0F12&hide_border=true&ring=FF9E3B&fire=FF6B35&currStreakLabel=FF9E3B&sideLabels=F3F4F6" alt="GitHub Streak" width="400"/>
+
+</div>
 
 ---
 
@@ -142,33 +93,20 @@ Interactive data visualization dashboard showcasing insights from Netflix's cont
 
 <div align="center">
 
-<!-- GitHub Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Exit0Hero&theme=dark&background=0B0F14&hide_border=true&ring=58A6FF&fire=A371F7&currStreakLabel=58A6FF&sideLabels=E6EDF3" alt="GitHub Streak" width="400"/>
-
-</div>
-
-<br/>
-
----
-
-## Engineering Philosophy
-
-<img src="assets/animations/philosophy.svg" alt="Engineering philosophy: choosing the right technology to solve the actual problem" width="100%"/>
-
-<br/>
-
----
-
-## Open Source Contributions
-
-<div align="center">
-
-<!-- Contribution Snake (auto-generated by GitHub Actions) -->
+<!-- Snake Animation — auto-generated by GitHub Actions -->
 <img src="assets/animations/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%"/>
 
 </div>
 
-<br/>
+---
+
+## System Loop
+
+<div align="center">
+
+<img src="assets/status-loop.svg" alt="Build, Learn, Experiment, Repeat — the system loop continues" width="500"/>
+
+</div>
 
 ---
 
@@ -176,18 +114,6 @@ Interactive data visualization dashboard showcasing insights from Netflix's cont
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Exit0Hero)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karan-sasane)
-
-</div>
-
-<br/>
-
----
-
-<div align="center">
-
-<!-- Status Loop -->
-<img src="assets/animations/status-loop.svg" alt="System status: Build, Learn, Experiment - Loop continues" width="500"/>
+<img src="assets/social-footer.svg" alt="Connect via GitHub, LinkedIn, Email" width="500"/>
 
 </div>

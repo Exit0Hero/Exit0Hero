@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 50" role="img" aria-label="Connect with Karan Sasane">
+  <defs>
+    <linearGradient id="ct-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#FF9E3B" stop-opacity="0.5"/>
+      <stop offset="80%" stop-color="#FF6B35" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="50" fill="#0D0F12"/>
+
+  <line x1="0" y1="1" x2="600" y2="1" stroke="url(#ct-grad)" stroke-width="0.5"/>
+
+  <!-- GitHub button -->
+  <g transform="translate(120, 12)">
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#FF9E3B" opacity="0.08" stroke="#FF9E3B" stroke-width="0.8"/>
+    <text x="65" y="17" text-anchor="middle" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" font-weight="bold">GITHUB →</text>
+  </g>
+
+  <!-- LinkedIn button -->
+  <g transform="translate(270, 12)">
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#00F2FE" opacity="0.08" stroke="#00F2FE" stroke-width="0.8"/>
+    <text x="65" y="17" text-anchor="middle" fill="#00F2FE" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" font-weight="bold">LINKEDIN →</text>
+  </g>
+
+  <!-- Email button -->
+  <g transform="translate(420, 12)">
+    <rect x="0" y="0" width="100" height="26" rx="13" fill="#FF6B35" opacity="0.08" stroke="#FF6B35" stroke-width="0.8"/>
+    <text x="50" y="17" text-anchor="middle" fill="#FF6B35" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" font-weight="bold">EMAIL →</text>
+  </g>
+</svg>

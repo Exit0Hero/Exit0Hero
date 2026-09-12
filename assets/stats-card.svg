@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" role="img" aria-label="GitHub statistics overview">
+  <defs>
+    <linearGradient id="sc-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9E3B"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="495" height="195" fill="#0D0F12" rx="8" stroke="#FF9E3B" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Header -->
+  <text x="247" y="28" text-anchor="middle" fill="#F3F4F6" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="12" font-weight="bold" letter-spacing="2">GITHUB TELEMETRY</text>
+  <line x1="140" y1="36" x2="355" y2="36" stroke="url(#sc-accent)" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Stats grid -->
+  <!-- Repos -->
+  <g transform="translate(30, 52)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="1">REPOSITORIES</text>
+    <text x="0" y="22" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="22" font-weight="bold">11</text>
+    <text x="0" y="38" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">public repos</text>
+  </g>
+
+  <!-- Followers -->
+  <g transform="translate(145, 52)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="1">FOLLOWERS</text>
+    <text x="0" y="22" fill="#00F2FE" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="22" font-weight="bold">3</text>
+    <text x="0" y="38" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">followers</text>
+  </g>
+
+  <!-- Stars -->
+  <g transform="translate(260, 52)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="1">STARS</text>
+    <text x="0" y="22" fill="#FF6B35" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="22" font-weight="bold">★</text>
+    <text x="0" y="38" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">earned</text>
+  </g>
+
+  <!-- Contributions -->
+  <g transform="translate(375, 52)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8" letter-spacing="1">STATUS</text>
+    <text x="0" y="22" fill="#10B981" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="22" font-weight="bold">●</text>
+    <text x="0" y="38" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">active</text>
+  </g>
+
+  <!-- Separator -->
+  <line x1="30" y1="100" x2="465" y2="100" stroke="#30363D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Bottom metric bars -->
+  <g transform="translate(30, 115)">
+    <!-- Language bar: Python -->
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">PYTHON</text>
+    <rect x="70" y="-6" width="280" height="8" rx="4" fill="#1A1D24"/>
+    <rect x="70" y="-6" width="210" height="8" rx="4" fill="#FF9E3B" opacity="0.7">
+      <animate attributeName="width" values="0;210" dur="1.5s" fill="freeze"/>
+    </rect>
+    <text x="360" y="0" fill="#FF9E3B" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">75%</text>
+  </g>
+
+  <g transform="translate(30, 135)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">TYPESCRIPT</text>
+    <rect x="70" y="-6" width="280" height="8" rx="4" fill="#1A1D24"/>
+    <rect x="70" y="-6" width="56" height="8" rx="4" fill="#00F2FE" opacity="0.7">
+      <animate attributeName="width" values="0;56" dur="1.5s" fill="freeze" begin="0.3s"/>
+    </rect>
+    <text x="360" y="0" fill="#00F2FE" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">20%</text>
+  </g>
+
+  <g transform="translate(30, 155)">
+    <text x="0" y="0" fill="#8E95A5" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">OTHER</text>
+    <rect x="70" y="-6" width="280" height="8" rx="4" fill="#1A1D24"/>
+    <rect x="70" y="-6" width="14" height="8" rx="4" fill="#10B981" opacity="0.7">
+      <animate attributeName="width" values="0;14" dur="1.5s" fill="freeze" begin="0.6s"/>
+    </rect>
+    <text x="360" y="0" fill="#10B981" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="8">5%</text>
+  </g>
+
+  <!-- HUD corners -->
+  <g stroke="#FF9E3B" stroke-width="1" fill="none" opacity="0.15">
+    <polyline points="8,8 8,20"/><polyline points="8,8 20,8"/>
+    <polyline points="487,8 487,20"/><polyline points="487,8 475,8"/>
+    <polyline points="8,187 8,175"/><polyline points="8,187 20,187"/>
+    <polyline points="487,187 487,175"/><polyline points="487,187 475,187"/>
+  </g>
+</svg>
