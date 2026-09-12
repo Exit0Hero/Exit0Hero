@@ -14,16 +14,6 @@
 
 ---
 
-## ASCII Portrait
-
-<div align="center">
-
-<img src="assets/ascii-profile.svg?v=2" alt="ASCII art portrait of Karan Sasane" width="420"/>
-
-</div>
-
----
-
 ## What I Build
 
 <div align="center">
