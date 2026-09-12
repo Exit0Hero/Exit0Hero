@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="assets/ascii-profile.svg" alt="ASCII art portrait of Karan Sasane" width="420"/>
+<img src="assets/ascii-profile.svg?v=2" alt="ASCII art portrait of Karan Sasane" width="420"/>
 
 </div>
 
